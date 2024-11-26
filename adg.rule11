@@ -1,0 +1,6 @@
+     rule = ["@@"] pattern [ "$" modifiers ]
+modifiers = [modifier0, modifier1[, ...[, modifierN]]]
+pattern = "/" regexp "/"
+@@/example.*/$important
+! This is a comment.
+# This is also a comment.
